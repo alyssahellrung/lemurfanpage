@@ -1,5 +1,5 @@
 # Lemur Fan Page
 
-## A website devoted to lemurs (because they are fascinating)
+## A website devoted to lemurs 
 
-## Purpose: review html fundamentals, learn CSS Grid.
+## Purpose: review html and css fundamentals, learn UIkit.
