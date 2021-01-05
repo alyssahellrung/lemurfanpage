@@ -1,3 +1,6 @@
+body, h3, .uk-heading-large, .uk-heading-medium {
+  font-family: 'Roboto Slab', serif;
+}
 
 .frontPageImage {
   width: 400px;
