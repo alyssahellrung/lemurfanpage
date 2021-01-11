@@ -2,6 +2,33 @@ body, h3, .uk-heading-large, .uk-heading-medium {
   font-family: 'Roboto Slab', serif;
 }
 
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.push {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+/* .uk-navbar-container {
+  background-color: #dce1e3 !important;
+} */
+
+footer {
+  flex-shrink: 0;
+  background-color: #dce1e3;
+}
+
 .footerText {
   text-align: center;
+  padding-top: 20px;
 }
