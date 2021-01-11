@@ -47,20 +47,34 @@
       </ul>
 
   <!-- images -->
-    <img src="./images/redruffedlemur.jpg" alt="A red-ruffed lemur sitting on a log." class="frontPageImage">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true">
 
-    <img src="images/soloringtailed.jpg" alt="A ring-tailed lemur in the grass." class="frontPageImage">
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/ringtailedtail.jpg" alt="A ring-tailed lemur wrapped in its tail." uk-cover>
+        </li>
+        <li>
+            <img src="images/verreauxsifaka.jpg" alt="Upper portion of a verreaux sifaka holding onto a thin tree trunk." uk-cover>
+        </li>
+        <li>
+            <img src="images/redruffedlemur.jpg" alt="A red-ruffed lemur crouching on a log." uk-cover>
+        </li>
+    </ul>
 
-    <img src="images/verreauxsifaka.jpg" alt="A close-up of a verreaux sifaka lemur holding onto a thin tree trunk." class="frontPageImage">
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+  </div>
 
     <h3>Almost every species of lemur is endangered.</h3>
 
   </main>
 
+  
   <footer>
     <p class="footerText">&copy; 2020 Alyssa Hellrung</p>
   </footer> 
-  
+    
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
