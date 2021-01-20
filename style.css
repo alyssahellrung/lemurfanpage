@@ -19,9 +19,15 @@ main {
   margin-top: 10px;
 }
 
-/* .uk-navbar-container {
+.uk-navbar-container {
   background-color: #dce1e3 !important;
-} */
+}
+
+.uk-heading-large,
+.uk-heading-medium {
+  color: #fae23e !important;
+  opacity: 1.0;
+}
 
 footer {
   flex-shrink: 0;
