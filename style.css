@@ -22,8 +22,11 @@ main {
 }
 
 .uk-navbar-container {
-  background-color: #4c5d6b !important;
-}
+  /* background-color: #4c5d6b !important;
+  background-color: #fcf1d6 !important; */
+  /* background-color: #dce1e3 !important; */
+  background: url(images/geometric-leaves.png) !important;
+} 
 
 .uk-heading-large,
 .uk-heading-medium {
