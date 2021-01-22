@@ -11,6 +11,8 @@ body {
 }
 
 main {
+  /* Background image from Toptal Subtle Patterns */
+  background: url(images/geometric-leaves.png);
   flex: 1 0 auto;
 }
 
@@ -20,7 +22,7 @@ main {
 }
 
 .uk-navbar-container {
-  background-color: #dce1e3 !important;
+  background-color: #4c5d6b !important;
 }
 
 .uk-heading-large,

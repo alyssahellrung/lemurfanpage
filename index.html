@@ -17,7 +17,7 @@
 
   <header>
 
-    <nav class="uk-navbar-container uk-navbar">
+    <nav class="uk-navbar-container uk-navbar uk-dark">
       <div class="uk-navbar-left">
   
           <ul class="uk-navbar-nav">
@@ -47,23 +47,25 @@
         </ul>
     </div>
   <!-- Slideshow -->
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true">
+    <div class="slideshow-container uk-container uk-container-small">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 5000">
 
-      <ul class="uk-slideshow-items">
-        <li>
+        <ul class="uk-slideshow-items">
+          <li>
             <img src="images/ringtailedtail.jpg" alt="A ring-tailed lemur wrapped in its tail." uk-cover>
-        </li>
-        <li>
+          </li>
+          <li>
             <img src="images/verreauxsifaka.jpg" alt="Upper portion of a verreaux sifaka holding onto a thin tree trunk." uk-cover>
-        </li>
-        <li>
+          </li>
+          <li>
             <img src="images/redruffedlemur.jpg" alt="A red-ruffed lemur crouching on a log." uk-cover>
-        </li>
-      </ul>
+          </li>
+        </ul>
 
-      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
+      </div>
     </div>
 
     <h3 class="push">Almost every species of lemur is endangered.</h3>
