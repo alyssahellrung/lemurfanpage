@@ -10,6 +10,11 @@ body {
   flex-direction: column;
 }
 
+.major {
+  text-align: center;
+  padding-top: 50px;
+}
+
 main {
   /* Background image from Toptal Subtle Patterns */
   background: url(images/geometric-leaves.png);
@@ -21,10 +26,7 @@ main {
   margin-top: 10px;
 }
 
-.uk-navbar-container {
-  /* background-color: #4c5d6b !important;
-  background-color: #fcf1d6 !important; */
-  /* background-color: #dce1e3 !important; */
+.minor{
   background: url(images/geometric-leaves.png) !important;
 } 
 
