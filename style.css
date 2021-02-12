@@ -15,6 +15,11 @@ body {
   padding-top: 50px;
 }
 
+.majorish {
+  text-align: center;
+  margin-top: 20px;
+}
+
 main {
   /* Background image from Toptal Subtle Patterns */
   background: url(images/geometric-leaves.png);
