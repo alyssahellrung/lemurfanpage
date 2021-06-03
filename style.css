@@ -31,9 +31,13 @@ main {
   margin-top: 10px;
 }
 
-.minor{
+.minor {
   background: url(images/geometric-leaves.png) !important;
 } 
+
+.slideshow-container {
+  margin-bottom: 20px;
+}
 
 .uk-heading-large,
 .uk-heading-medium {
